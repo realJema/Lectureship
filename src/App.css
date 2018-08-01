@@ -1,0 +1,141 @@
+.main {
+  display: flex;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  z-index: 1005;
+  min-height: 100vh;
+  width: 100%;
+  text-align: center;
+  font-family: raleway;
+}
+
+.bg_img {
+  position: relative;
+  background-position: 50% 50%;
+  background: url("img/img3.jpg");
+  background-size: cover;
+}
+
+.Content {
+  margin: auto;
+  width: 80%;
+}
+.white {
+  color: white;
+}
+
+.Content h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.5em;
+  font-family: century;
+}
+
+.Content_2 {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  font-size: 0.9em;
+  align-items: center;
+}
+.Content_2 p {
+  width: 65%;
+  padding-right: 5%;
+}
+
+.date {
+  width: 25%;
+}
+
+hr {
+  width: 80%;
+}
+
+.date h2 {
+  font-size: 6em;
+  margin: 0;
+  font-family: century;
+  float: left;
+}
+
+.date_2 {
+  padding-top: 10%;
+}
+
+.main_menu {
+  position: fixed;
+  z-index: 100000;
+  top: 0;
+  width: 100%;
+}
+
+.main_menu a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+}
+
+.fltRght {
+  float: right;
+}
+
+.bg_grey {
+  background-color: gainsboro;
+}
+
+.event_line {
+  margin: 0 5%;
+  height: inherit;
+}
+.line {
+  background-color: #223448;
+  width: 10px;
+  height: 100%;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #223448;
+  border-radius: 50px;
+}
+
+.event {
+  display: inline-flex;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.event p, h2 {
+  margin: 0;
+}
+.event_lft {
+  text-align: right;
+  width: 45%;
+  display: table;
+}
+.event_rght {
+  text-align: left;
+  width: 45%;
+}
+
+.tp_line {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 3px;
+  margin-bottom: -5px;
+  z-index: 1000;
+  position: relative;
+}
+
+.btm_line {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 3px;
+  margin-top: -5px;
+  z-index: 1000;
+  position: relative;
+}
