@@ -38,7 +38,6 @@ class App extends Component {
                 </ScrollableAnchor>
             </section>
           </StickyHeader>
-        );
 
         <ScrollableAnchor id={'About'}>
           <About />

@@ -23,7 +23,7 @@ class Footer extends Component {
                 </ul>
                 <div className="link_1 link_1_1">
                   <h4>GET IN TOUCH</h4>
-                  The Church of Christ located in Bokoko<br/>
+                  The Church of Christ<br/>
                   Buea, Cameroon.<br/>
                   P.O Box 4022 Nlongkak Yaounde<br/>
                   cocbuea@gmail.com 

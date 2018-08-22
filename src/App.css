@@ -22,13 +22,17 @@
 .bg_img {
   /* position: relative; */
   background-position: 50% 50%;
-  background: url("img/img3.jpg");
+  background: url("img/img2.jpg");
   background-size: cover;
 }
 
 .Content {
   margin: auto;
   width: 80%;
+}
+
+.push {
+  margin-top: 10px;
 }
 .white {
   color: white;
@@ -161,11 +165,12 @@ hr {
   height: 80%;
   background-color: #223448;
   color: white;
+  display: -ms-flexbox;
   display: flex;
 }
 
 footer {
-  height: 40vh;
+  height: 50vh;
   width: 100%;
   margin-top: auto;
 }
@@ -173,9 +178,9 @@ footer {
 .link_1 {
   list-style: none;
   width: 20%;
-  margin: 0;
   text-align: left;
-  margin: auto 0 auto 10%;
+  margin-left: auto;
+  padding-left: auto !important;
 }
 .link_1 a, li{
   text-decoration: none;
@@ -184,9 +189,11 @@ footer {
 }
 
 .btm {
+  display: -ms-flexbox;
   display: flex;
   margin: auto;
-  width: 80%;
+  margin: auto;
+  width: 90%;
 }
 
 .name {
@@ -203,7 +210,9 @@ footer {
 
 .link_1_1 {
   overflow: hidden;
-  width: auto;
+  width: 30%;
+  margin-left: auto;
+  padding-left: auto;
 }
 
 .churches_marquee {
@@ -228,6 +237,7 @@ footer {
 .churches_marquee .tryMe a {
   display: inline-block;
   padding-right: 200px;
+  
 }
 
 @keyframes marquee {
@@ -240,9 +250,10 @@ footer {
   color: #278dff;
 }
 
-.is-sticky div {
+.is-sticky div.main_menu {
   background-color: white;
   color: black;
   opacity: 0.95;
   transition: ease-in-out 0.5s;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16)
 }
