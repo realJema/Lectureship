@@ -8,9 +8,19 @@
   text-align: center;
   font-family: raleway;
 }
+.main2 {
+  display: flex;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  z-index: 1005;
+  min-height: 50vh;
+  width: 100%;
+  text-align: center;
+  font-family: raleway;
+}
 
 .bg_img {
-  position: relative;
+  /* position: relative; */
   background-position: 50% 50%;
   background: url("img/img3.jpg");
   background-size: cover;
@@ -43,6 +53,12 @@
   padding-right: 5%;
 }
 
+h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: century;
+  margin: 3% 0;
+}
+
 .date {
   width: 25%;
 }
@@ -67,11 +83,12 @@ hr {
   z-index: 100000;
   top: 0;
   width: 100%;
+  color: white ;
 }
 
 .main_menu a {
+  color: inherit;
   text-decoration: none;
-  color: white;
   padding: 10px;
   display: inline-block;
 }
@@ -138,4 +155,94 @@ hr {
   margin-top: -5px;
   z-index: 1000;
   position: relative;
+}
+
+.btm_links {
+  height: 80%;
+  background-color: #223448;
+  color: white;
+  display: flex;
+}
+
+footer {
+  height: 40vh;
+  width: 100%;
+  margin-top: auto;
+}
+
+.link_1 {
+  list-style: none;
+  width: 20%;
+  margin: 0;
+  text-align: left;
+  margin: auto 0 auto 10%;
+}
+.link_1 a, li{
+  text-decoration: none;
+  color: white;
+  padding: 4px 0
+}
+
+.btm {
+  display: flex;
+  margin: auto;
+  width: 80%;
+}
+
+.name {
+  margin: auto;
+  font-weight: bold;
+}
+
+
+.btn {
+  padding: 7px 25px;
+  background-color: white;
+  border: 1px solid #adadad;
+}
+
+.link_1_1 {
+  overflow: hidden;
+  width: auto;
+}
+
+.churches_marquee {
+  width: 100%;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  height: 20%;
+  background-color: white;
+  display: flex;
+}
+
+.tryMe {
+  padding-left: 100%;
+  padding-right: 100%;
+  animation: marquee 250s linear infinite;
+  display: flex;
+}
+
+.churches_marquee .tryMe a {
+  display: inline-block;
+  padding-right: 200px;
+}
+
+@keyframes marquee {
+  0% { transform: translate(0, 0);}
+  100% { transform: translate(-100%, 0);}
+}
+
+.town {
+  font-weight: normal;
+  color: #278dff;
+}
+
+.is-sticky div {
+  background-color: white;
+  color: black;
+  opacity: 0.95;
+  transition: ease-in-out 0.5s;
 }
