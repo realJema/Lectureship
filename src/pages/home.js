@@ -5,14 +5,21 @@ class Home extends Component {
     return (
         <div className="main bg_img">
             <div className="Content white">
-            <h1>ANNUAL BIBLE LECTURESHIP</h1>
-            <hr/>
+                <h1>ANNUAL GOSPEL LECTURESHIP</h1>
+                <h3>THE CHURCHES OF CHRIST</h3>
+                <h5>CAMEROON</h5>
+                <hr/>
             <div className="Content_2">
-                <p>The time has come to bring those ideas and plans to life. This is where we really begin tto visualize your napkin sketches and make them into beautiful pixels.</p>
+                <div>
+                    <h3>Theme:</h3>
+                    <h1>Christian Integrity During Perilous Times</h1>
+                    <span>Matthew 24:4-14</span>
+
+                </div>
                 <div className="date">
-                <h2>21</h2>
+                <p>22-25</p>
                 <div className="date_2">
-                    <span>December</span><br/>
+                    <span>NOVEMBER</span><br/>
                     <span>2018</span>
                 </div>
                 </div>

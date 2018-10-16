@@ -22,10 +22,13 @@
 .bg_img {
   /* position: relative; */
   background-position: 50% 50%;
-  background: url("img/img4.jpg");
+  /* background: url("img/img4.jpg"); */
+  background-color: black;
   background-size: cover;
 }
-
+h1,h3, h5{
+  margin: 0;
+}
 .Content {
   margin: auto;
   width: 80%;
@@ -52,7 +55,8 @@
   font-size: 0.9em;
   align-items: center;
 }
-.Content_2 p {
+.Content_2 div {
+  display: block;
   width: 65%;
   padding-right: 5%;
 }
@@ -64,9 +68,16 @@ h4 {
 }
 
 .date {
-  width: 25%;
+  width: 35%;
+  display: flow-root;
 }
-
+.date p {
+  font-size: 7em;
+  margin: 0;
+  /* width: 60%; */
+  padding: 0;
+  width: fit-content;
+}
 hr {
   width: 80%;
 }
@@ -79,7 +90,7 @@ hr {
 }
 
 .date_2 {
-  padding-top: 10%;
+  font-size: 1.5em;
 }
 
 .main_menu {
@@ -181,6 +192,7 @@ footer {
   text-align: left;
   margin-left: auto;
   padding-left: auto !important;
+  margin: 0 auto;
 }
 .link_1 a, li{
   text-decoration: none;

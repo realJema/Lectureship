@@ -32,7 +32,6 @@ class App extends Component {
             }
           >
             <section>
-              
             <ScrollableAnchor id={'Home'}>
                   <Home />
                 </ScrollableAnchor>
