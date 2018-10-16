@@ -111,7 +111,7 @@ constructor(props) {
               </div>
             )}
             <br/><br/>
-          <a className="btn" href="https://goo.gl/forms/VJAGxz3Mk0E9UD4w2" target="_blank" rel="noopener noreferrer">Register</a>
+          <a className="btn" href="https://goo.gl/forms/VJAGxz3Mk0E9UD4w2" target="_blank" rel="noopener noreferrer">Download</a>
           <p>Download the Full program here!</p>
           </div>
 
